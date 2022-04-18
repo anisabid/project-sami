@@ -1,0 +1,110 @@
+exo 1 :
+ largeur (width, min-width, max-width) et une hauteur (height, min-height, max-height) ?
+Utile pour mettre en évidence un parent */
+.parent { dans le css je comprends pas pk il existe tjrs ?
+dans le css a la fois je precise le selecteur et a la fois non ? box.{} et box1 {} comment ca ?
+box sizing ? box sizing : border-box ?
+ margin  padding border
+exo2 : classe : container c pour ?
+lien vide ? 
+parfois on utulise un div class et parfois un article ?
+selecteur universel * ? ca change quoi ?
+a:hover ?
+.header h1 ?
+.card, .cards > * { ?
+pour quoi .gutter et pas card gutter comme ci mentionnées dans la classe.
+font-family: Monaco, monospace; ( pas de guillemet et qui est pris en compte)
+comment je peux avoir la largeur et la hauteur div ou article ?
+exo 3 :
+on a fait un commentaire pour quoi ?
+pk on utulise border box poour * 
+si je change padding 2em ca marche pas pk ?
+parfois on touche card paroison touche parents pour tant on des classes qui 'appele parents cards.
+.parent > article c quoi ?
+display:inline-block
+.hack-css * 
+font size = initial
+exo 4 : 
+.test > article
+overflow: hidden
+clear: both ?
+clearfix{!!} ??
+exo5:
+* Utiliser le rechercher/remplacer pour aller plus rapidement
+* Par exemple en remplaçant le caractère "Tabulation" par "</td><td>" instruction ?
+border-collapse: collapse ?
+caption ?
+.regions tbody td:nth-child(1) {text-align: left;}
+.regions tbody tr:nth-child(odd) td {?? odd c quoi ? even aussi ?
+exo : 6 
+ul[class*="test"]
+display: flex
+flex-direction: row-reverse/column/column-reverse
+flex-wrap: nowrap
+align-items: center/flex-start*/
+[class*="test-align-items"] li:nth-child(odd) {
+	line-height: 4em;}
+Justify-content: flex-start/center
+exo7 : 
+est ce y'a un moyen par exemple background repeat : je vois tout les possbilités ?
+ou bien background-size je vois tout les possilbilités aussi ? 
+	background-size: contain
+background-size: 80% 40%
+exo8:
+on peut faire div dans un div ? 
+<div class="cards gutter">
+<div class="border-1">Tous les angles à 1em .. ?
+border-radius
+white-space: nowrap;
+border-radius: 50%
+les deux cercles;
+exo9: 
+<form action="" methode="">
+<fieldset>
+legend
+label for 
+input et input type ?
+<select name="object">
+toolbar
+button type ca existe beaucoup de types ?
+.button:hover:
+min-height
+.fieldset .value ca signifie quoi ?
+.filed + .filed ?
+pour quoi dusplay : inline-block dans le .button 
+pour quoi on met comme ca input[type="search"] comme selecter []
+exo 10 :
+est ce que ca change pas hedaer class/ main class / footer class/
+column-gap 
+column-rule 
+padding pour quoi il accepte pas des valeurs autres que 0 ?
+pour le text align pas de reaction si change eb left ou right.
+Exo Hello World :
+pour quoi on a mis les links de favicon on avon dans le head ?
+l'utulité de chaque lien dans le head ?
+pour quoi quand je clique sur propos et contact ca va vers le bas.
+pour quoi la section id et un classe a la fois ?
+le hr c pour quoi ?
+avant on a fait une section avec article sans id apres on a fait une section sans id avec div ?
+form action + method ?
+input type + id + placeholder
+les liens des icones ?
+Css : clear nemarche pas quand j'enleve both 
+pour quoi in a pas fait buttom pour read more ?
+flex basis ?
+je peux appeler col flex input .. ? si y'aura un input ailleurs comment je peux l'appeler ?
+padding: 0.65em 1em
+Quand je fais copie coller au ce code css l'image de la mer se dissparaisse !!
+Exo Move Avademy : 
+est ce que c'est normale deux classe containner aprés dans le css faut presscisser le parent c ca ? si le meme parent cela ne fonctionnera pas ?
+figcaption ?
+Css : nav a:focus
+td:empty 
+td:first of type
+
+
+
+
+
+
+

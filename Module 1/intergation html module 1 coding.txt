@@ -1,0 +1,42 @@
+exo 4
+pour quoi on a change de pre a article
+pour quoi il a utuluisé classe id= intro
+pour quoi il a mis .code dans theme et pas sur commin page
+exo 5 : quand on fait element article quan d on fait pas
+quote : "« " css
+exo 6 :  y'en a plusieurs classe mall white-space-normal - nowrap.. 
+dans le css  a mis .small comment ca? 
+savoir plus sur la reaction class small dans le css.
+font size difference entre pt et px et % et em et rem 
+font weight faut voir la diffence 700/bold /lighter
+font style ? font weight ? font size ?
+white space : nowrap pre normal
+text indent : retrait ? 
+line height est ce que c important ?
+.parent a voir 
+exo7: 
+meta name
+link href 
+target_blank : ca veut dire allez dans une autre page ?
+fb twitter : <i class="">
+@font-face
+comment on a apporter les favicons
+exo 8 : 
+class : containner 
+class clear ?
+Comprendre le fonctionnement du float ?
+clear : both ?
+border bottom ? hr ?
+exo9:
+'Source Sans Pro', sans-serif; ? quel est prise en compte ?
+. menu a ?
+html dans le css ?
+exo10 : 
+fichier normalize 
+comment je sais qu'il sagit des articles 
+
+
+ 
+
+
+
