@@ -5,3 +5,29 @@
 	color: #000;
 	background-color: #fff;
 }
+
+
+.section-class {
+	border: 1px solid #00B925;
+	padding: 10px;
+	margin: 10px;
+	background-color: #fff;
+}
+
+.section-class .code {
+	color: #fff;
+	background-color: #00B925;
+}
+
+.section-class .intro {
+	font-weight: bold;
+	color: #DD5735;
+}
+
+.section-class .intro-b{
+	color: aqua;
+}
+
+.section-class.section-c .intro{
+	color: bisque;
+}
