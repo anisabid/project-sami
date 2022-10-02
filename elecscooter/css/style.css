@@ -1,0 +1,116 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+/***********************************************
+	HEADER
+***********************************************/
+.header {
+  height: 80px;
+  background-color: #fff;
+  border-bottom: 1px solid #f1f1f1;
+  display: flex;
+  box-shadow: 0px 0px 20px 0px rgba(7, 20, 52, 0.1);
+  align-items: center;
+  justify-content: space-between !important;
+}
+/* header logo */
+.header .logo {
+  padding: 12px;
+  background-color: #0d6efd;
+  display: block;
+  width: 250px;
+  text-align: center;
+}
+/* header nav */
+.header .nav {
+}
+.header .nav a {
+  color: #232323;
+}
+.header .nav a:hover {
+  color: #fff;
+  background-color: #0d6efd;
+}
+.header .nav .nav-items {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.header .nav .nav-item {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+}
+.header .nav a {
+  padding: 30px 35px;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+}
+.header .nav .nav-subitems {
+  display: none;
+  position: absolute;
+  background: #fff;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  width: 250px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.header .nav .nav-item:hover .nav-subitems {
+  display: block;
+}
+.header .nav .nav-subitem a {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 0;
+  padding: 20px 15px;
+  text-align: left;
+  text-transform: capitalize;
+  width: 100%;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+/***********************************************
+	SLIDER
+***********************************************/
+.slider {
+  height: 600px;
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+}
+.slider .slide {
+  height: 600px;
+  width: 100vw;
+  float: left;
+  background-size: cover;
+  background-position: center center;
+}
+.slider .slide-link {
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+  z-index: 1000;
+  cursor: pointer;
+}
+.slider .slide-link:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.slider .slide-link.slide-link-previous {
+  left: 0;
+}
+.slider .slide-link.slide-link-next {
+  right: 0;
+}
+.slider .slides {
+  transition: 1s ease-in-out;
+}

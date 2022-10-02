@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/normlize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Elecscooter</title>
+  </head>
+  <body class="body">
+    <!-- HEADER -->
+    <div class="header-wrapper">
+      <header class="header">
+        <a href="/" class="logo">
+          <img src="img/elecscooter.svg" alt="Logo elecscooter" />
+        </a>
+        <nav class="nav">
+          <ul class="nav-items">
+            <li class="nav-item"><a href="index.html">Accueil</a></li>
+            <li class="nav-item">
+              <a href="Boutique.html">Boutique</a>
+              <ul class="nav-subitems">
+                <li class="nav-subitem"><a href="#">Trotinette Electrique</a></li>
+                <li class="nav-subitem"><a href="#">Trotinette Compacte</a></li>
+                <li class="nav-subitem"><a href="#">Accessoires</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="Contact.html">Contact</a></li>
+            <li class="nav-item"><a href="Panier.html">Panier</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <!-- / HEADER -->
+
+    <!-- SLIDER -->
+    <div id="slider" class="slider js--slider">
+      <div class="slide-link slide-link-previous js--previous" onclick="prevSlide()"></div>
+      <div class="slides js--slides">
+        <div class="slide js--slide" style="background-image: url('img/wallpaper/trottinette-electrique-1.jpg')"></div>
+        <div class="slide js--slide" style="background-image: url('img/wallpaper/trottinette-electrique-2.jpg')"></div>
+        <div class="slide js--slide" style="background-image: url('img/wallpaper/trottinette-electrique-3.jpg')"></div>
+      </div>
+      <div class="slide-link slide-link-next js--next" onclick="nextSlide()"></div>
+    </div>
+    <!-- / SLIDER -->
+    <script src="js/slider.js"></script>
+  </body>
+</html>
