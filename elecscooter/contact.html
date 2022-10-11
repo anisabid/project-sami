@@ -36,29 +36,44 @@
     </div>
     <!-- / HEADER -->
 
-    <!-- SLIDER -->
-    <div id="slider" class="slider js--slider">
-      <div class="slide-link slide-link-previous js--previous" onclick="prevSlide()"></div>
-      <div class="slides js--slides">
-        <div class="slide js--slide" style="background-image: url('img/wallpaper/trottinette-electrique-1.jpg')"></div>
-        <div class="slide js--slide" style="background-image: url('img/wallpaper/trottinette-electrique-2.jpg')"></div>
-        <div class="slide js--slide" style="background-image: url('img/wallpaper/trottinette-electrique-3.jpg')"></div>
-      </div>
-      <div class="slide-link slide-link-next js--next" onclick="nextSlide()"></div>
-    </div>
-    <!-- / SLIDER -->
-
     <!-- BODY -->
-    <div class="container">
-      <div class="about">
-        <img src="img/about-3.jpeg" alt="about" class="about-img" />
-        <div class="about-info">
-          <h4 class="sub-header">Lorem Ipsum</h4>
-          <h2 class="heading">Lorem Ipsum</h2>
-          <div class="summary">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue elit a nisl laoreet, eu consequat risus tempus. Sed sit amet ullamcorper tellus. Nulla quis augue sit amet nunc
-            convallis rutrum vitae imperdiet justo. Duis et efficitur purus, euismod tempus nisl. Proin ac pellentesque libero. Aliquam sagittis, mi ultricies tempus porta, leo enim hendrerit augue,
-          </div>
+
+    <div class="section-contact">
+      <div class="container">
+        <div class="form">
+          <h4 class="sub-heading">Contactez-nous</h4>
+          <h2 class="heading">Vous avez une question? <br /></h2>
+          <form action="#" method="POST" class="contact-form">
+            <div class="grid-line">
+              <div class="grid-column-100">
+                <input class="form-input" id="name" name="name" placeholder="Name" type="text" />
+              </div>
+            </div>
+            <div class="grid-line">
+              <div class="grid-column-50">
+                <input class="form-input" id="email" name="email" placeholder="Email*" type="email" />
+              </div>
+              <div class="grid-column-50">
+                <input class="form-input" id="phone" name="phone" placeholder="Phone" type="text" />
+              </div>
+            </div>
+            <div class="grid-line">
+              <div class="grid-column-100">
+                <div class="comments">
+                  <textarea class="form-textarea" id="comments" name="comments" placeholder="Tell Us About Project *"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="grid-line">
+              <div class="grid-column-100">
+                <button type="submit" name="submit" id="submit" class="submit"><i class="fa fa-paper-plane"></i>Envoyer</button>
+              </div>
+            </div>
+            <!-- Alert Message -->
+            <div class="grid-column alert-notification">
+              <div id="message" class="alert-msg"></div>
+            </div>
+          </form>
         </div>
       </div>
     </div>
